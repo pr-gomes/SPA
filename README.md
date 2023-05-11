@@ -1,4 +1,4 @@
-### <h2 align="center"> Project SASS SPA </h2>
+### <h2 align="center"> 💫 Project SASS SPA 💫 </h2>
  <br><br>
  
 💬 Projeto realizado através do uso do pré-processador CSS : SASS, aonde pude treinar e praticar sua usabilidade, deixando meu código mais organizado e semântico. 
