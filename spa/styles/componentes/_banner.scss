@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+.banner {
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    .inner-banner { 
+        font-weight: 600;
+        background-color: #FFD93D;
+        opacity: 0.70;
+        border-radius: 25px;
+        padding: 2rem;
+        color: $cor-azul_escuro;
+        
+        .titulo-innerbanner{
+            font-size: $size-fonte-principal;
+            color: $cor-rosa;
+        }
+        .subtitulo-innerbanner {
+            font-size: $size-fonte-principal / 3;
+        }
+    }
+}

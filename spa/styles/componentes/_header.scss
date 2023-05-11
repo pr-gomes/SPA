@@ -1,0 +1,23 @@
+@import '../abstract/variaveis';
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    gap: 20px;
+
+    a {
+        font-size: $size-fonte-principal / 2;
+        font-weight: 700;
+        text-decoration: none;
+        color: $cor-azul_escuro;
+
+        &:hover {
+            border-bottom: 1px solid  $cor-rosa;
+            color: $cor-rosa ;
+            transition: 1s ease;
+
+        }
+    }
+}

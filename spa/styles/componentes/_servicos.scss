@@ -1,0 +1,62 @@
+@import '../abstract/variaveis';
+
+
+
+.serviços {
+    margin: 1em;
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+
+        .card {
+            width: 360px;
+            text-align: center;
+
+            h5 {
+                font-size: $size-fonte-principal / 2;
+                font-weight: 600;
+                padding: 0.5em 0;
+                color: $cor-azul_escuro;
+                
+            }
+
+            p {
+                font-size: $size-fonte-principal / 3;
+                font-weight: 400;
+                color: $cor-azul_escuro;
+                line-height: 1.5;
+                margin-bottom: 2em;
+            }
+
+            .img-container {
+                padding-bottom: 2px;
+                border-bottom: 10px solid $cor-rosa;
+
+                img {
+                    max-width: 100%;
+                }
+
+            }
+        }
+
+    }
+
+    .titulo__cards {
+        font-size: $size-fonte-principal / 2.5;
+        font-weight: 600;
+        color: $cor-azul_escuro;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2.5em;
+    }
+
+    .subtitulo__cards {
+        font-size: $size-fonte-principal / 1.8;
+        text-align: center;
+        font-weight: 400;
+        color: $cor-azul_escuro;
+        margin-bottom: 2rem;
+    }
+
+}

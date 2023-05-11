@@ -1,0 +1,71 @@
+@import '../abstract/variaveis';
+
+.cupom {
+    background-color: $cor-clara;
+    padding: 4rem;
+    text-align: center;
+    opacity: 0.70;
+
+    .texto__cupom {
+        color: $cor-azul_escuro;
+        margin-bottom: 1em;
+
+        h2 {
+            font-size: $size-fonte-principal / 2;
+            font-weight: 600;
+        }
+    }
+
+    .inscricao {
+        display: flex;
+        justify-content: center;
+
+        form {
+            display: flex;
+            gap: 10px;
+
+            .input {
+                margin: 0 auto;
+                border-radius: 20px;
+                margin-left: 5em;
+
+                input {
+                    border-radius: 20px;
+                    height: 40px;
+                    width: 500px;
+                    border: 2px solid $cor-rosa;
+                    padding-left: 2em;
+                    font-size: $size-fonte-principal / 3;
+
+                    &:hover,
+                    &:focus-within {
+                        box-shadow: 1px 1px 10px 1px $cor-rosa;
+                        transition: 1s ease-in-out;
+                        outline: none;
+                    }
+
+                }
+
+            }
+
+            button {
+                font-size: $size-fonte-principal / 3;
+                font-weight: 500;
+                border-radius: 20px;
+                border: 2px solid $cor-rosa;
+                cursor: pointer;
+                padding: 0 1em;
+                letter-spacing: 1px;
+
+                &:hover {
+                    background-color: $cor-azul_escuro;
+                    color: $cor-rosa;
+                    transition: 1s ease-in-out;
+
+                }
+            }
+
+        }
+    }
+
+}

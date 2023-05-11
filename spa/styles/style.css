@@ -1,0 +1,261 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: 20px;
+}
+.lista a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #060047;
+}
+.lista a:hover {
+  border-bottom: 1px solid #FF55BB;
+  color: #FF55BB;
+  transition: 1s ease;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  font-weight: 600;
+  background-color: #FFD93D;
+  opacity: 0.7;
+  border-radius: 25px;
+  padding: 2rem;
+  color: #060047;
+}
+.banner .inner-banner .titulo-innerbanner {
+  font-size: 3rem;
+  color: #FF55BB;
+}
+.banner .inner-banner .subtitulo-innerbanner {
+  font-size: 1rem;
+}
+
+.serviços {
+  margin: 1em;
+}
+.serviços .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.serviços .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.serviços .cards .card h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5em 0;
+  color: #060047;
+}
+.serviços .cards .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #060047;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.serviços .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 10px solid #FF55BB;
+}
+.serviços .cards .card .img-container img {
+  max-width: 100%;
+}
+.serviços .titulo__cards {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #060047;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.5em;
+}
+.serviços .subtitulo__cards {
+  font-size: 1.6666666667rem;
+  text-align: center;
+  font-weight: 400;
+  color: #060047;
+  margin-bottom: 2rem;
+}
+
+.cupom {
+  background-color: #FFD93D;
+  padding: 4rem;
+  text-align: center;
+  opacity: 0.7;
+}
+.cupom .texto__cupom {
+  color: #060047;
+  margin-bottom: 1em;
+}
+.cupom .texto__cupom h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cupom .inscricao {
+  display: flex;
+  justify-content: center;
+}
+.cupom .inscricao form {
+  display: flex;
+  gap: 10px;
+}
+.cupom .inscricao form .input {
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-left: 5em;
+}
+.cupom .inscricao form .input input {
+  border-radius: 20px;
+  height: 40px;
+  width: 500px;
+  border: 2px solid #FF55BB;
+  padding-left: 2em;
+  font-size: 1rem;
+}
+.cupom .inscricao form .input input:hover, .cupom .inscricao form .input input:focus-within {
+  box-shadow: 1px 1px 10px 1px #FF55BB;
+  transition: 1s ease-in-out;
+  outline: none;
+}
+.cupom .inscricao form button {
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 2px solid #FF55BB;
+  cursor: pointer;
+  padding: 0 1em;
+  letter-spacing: 1px;
+}
+.cupom .inscricao form button:hover {
+  background-color: #060047;
+  color: #FF55BB;
+  transition: 1s ease-in-out;
+}
+
+footer {
+  padding: 1em;
+  border-top: 2px solid #FF55BB;
+  color: #060047;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  background: linear-gradient(to right, #FF55BB, #060047);
+}
+footer i {
+  color: red;
+}
+
+.serviços {
+  margin: 1em;
+}
+.serviços .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.serviços .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.serviços .cards .card h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5em 0;
+  color: #060047;
+}
+.serviços .cards .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #060047;
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.serviços .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 10px solid #FF55BB;
+}
+.serviços .cards .card .img-container img {
+  max-width: 100%;
+}
+.serviços .titulo__cards {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #060047;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2.5em;
+}
+.serviços .subtitulo__cards {
+  font-size: 1.6666666667rem;
+  text-align: center;
+  font-weight: 400;
+  color: #060047;
+  margin-bottom: 2rem;
+}
+
+.titulo__espaco {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #060047;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .card {
+  width: 360px;
+  text-align: center;
+}
+.cards .card .img-interior {
+  max-width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 10px solid #FF55BB;
+}
+
+.curiosidades {
+  display: flex;
+  align-items: center;
+}
+.curiosidades img {
+  margin-top: 2rem;
+  border-right: 3px solid #FF55BB;
+}
+.curiosidades__inner {
+  padding-left: 2em;
+  line-height: 1.5;
+  width: 50%;
+}
+.curiosidades__inner h3 {
+  font-size: 3rem;
+  color: #060047;
+}
+.curiosidades__inner h4 {
+  font-size: 1.5rem;
+  color: #FF55BB;
+}
+.curiosidades__inner p {
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
